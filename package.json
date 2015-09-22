@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-local-notifications-nn",
-  "version": "0.8.1",
+  "version": "0.8.2-r1",
   "description": "Fork of https://github.com/katzer/cordova-plugin-local-notifications to fix Phonegap Build problems",
   "repository": {
     "type": "git",
@@ -10,6 +10,15 @@
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/katzer/cordova-plugin-local-notifications/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-local-notifications-nn",
+    "platforms": [
+      "ios",
+      "android",
+      "windows8",
+      "wp8"
+    ]
   },
   "homepage": "https://github.com/katzer/cordova-plugin-local-notifications#readme"
 }
