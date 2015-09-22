@@ -77,7 +77,7 @@
 
     <!-- android -->
     <platform name="android">
-        <framework src="com.android.support:support-v13:23+" />
+        <dependency id="android.support.v13" url="https://github.com/nnexai/cordova-plugin-android-support-v13.git"/>
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="LocalNotification">
